@@ -1,0 +1,19 @@
+{
+  "name": "gt06n",
+  "version": "1.0.2",
+  "description": "Concox parser for Elyez",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --expose-gc --nouse-idle-notification --max-old-space-size=1024 example/app.js",
+    "test": "istanbul cover _mocha -- -R spec test/"
+  },
+  "dependencies": {
+    "@elyez/gateway": "^1.0.2",
+    "crc16-itu": "^1.0.6",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.3.0"
+  }
+}
